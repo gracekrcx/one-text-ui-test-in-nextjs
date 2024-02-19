@@ -4,7 +4,7 @@ import { useState } from 'react';
 function renderAlert(showError, limitBuyText, maximum) {
   if (showError) {
     return limitBuyText
-      ? `( 已超出${limitBuyText} )`
+      ? `( 買太多了${limitBuyText} )`
       : `已超出購買數量，上限${maximum}`;
   }
   if (limitBuyText) {
