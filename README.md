@@ -5,3 +5,5 @@
 ### nextjs version: 13.5.6
 
 ### react Testing Library version: ...
+
+### 執行測試: npm run test
