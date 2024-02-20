@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css';
 import { useState } from 'react';
 
-function renderAlert(showError, limitBuyText, maximum) {
+export function renderAlert(showError, limitBuyText, maximum) {
   if (showError) {
     return limitBuyText
       ? `( 買太多了${limitBuyText} )`
