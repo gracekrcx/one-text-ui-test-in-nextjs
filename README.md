@@ -1,9 +1,14 @@
 # ui-test-in-nextjs
 
-### node version: 18.14.2
+### 🪄version
+node: 18.14.2  
+nextjs: 13.5.6   
+react-testing-library: 14.2.1  
+jest: 29.7.0
 
-### nextjs version: 13.5.6
+### 🪄run tests
+`npm run test`
 
-### react Testing Library version: ...
-
-### 執行測試: npm run test
+### 🪄參考文件
+1. [Setting up Jest with Next.js](https://nextjs.org/docs/app/building-your-application/testing/jest)  
+2. ChatGPT3.5
